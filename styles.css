@@ -75,14 +75,9 @@ body {
   footer {
     display: flex;
     position: absolute;
-    align-items: center;
     top: 95%;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: grey;
-    background-color: hsl(100, 200);
-    border: none;
-    border-radius: 10%;
-    width: auto;
-  }
+    }
