@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let inputDisplay = document.getElementById("buttonDisplay");
-    let buttons = document.querySelectorAll(".button");
+    let inputDisplay = document.getElementById("inputNumber");
+    let buttons = document.querySelectorAll("button");
 
     let currentInput = "";
     let operator = "";
