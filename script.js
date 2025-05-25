@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if (value === "CE") {
                 currentInput = "";
                 inputDisplay.textContent = "0";
-            } else if (["+", "-", "*", "/"].includes(value)) {
+            } else if (["+", "-", "*", "/", "%"].includes(value)) {
                 if (currentInput !== "") {
                     operator = value;
                     firstOperand = currentInput;
@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         case "/":
                             result = parseFloat(firstOperand) / parseFloat(currentInput);
                             break;
+                        case "%":
+                            result = parseFloat(firstOperand) % parseFloat(currentInput);
                     }
                     inputDisplay.textContent = result;
                     currentInput = result.toString();

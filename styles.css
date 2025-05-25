@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    width: 280px;
+    width: 380px;
     display: grid;
     gap: 10px;
   }
